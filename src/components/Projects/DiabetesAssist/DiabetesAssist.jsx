@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import MassShootings from '../../../assets/images/mass-shootings.png'
+import DiabetesAssistImage from '../../../assets/images/diabetes-assist.png'
 import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 
-const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
+const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
     const [showMoreDetails, setShowMoreDetails] = useState(false)
 
@@ -14,7 +14,7 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
             <article className="project__summary center-row">
                 <article className="project__summary--fig-container center-column">
                     <figure className="project__summary--fig-container__fig">
-                        <img src={MassShootings} alt="Mass Shootings U.S. Project" className="responsive-img" />
+                        <img src={DiabetesAssistImage} alt="Diabetes Assist" className="responsive-img" />
                     </figure>
                     <article className="project__summary--fig-container__technical-logos">
                         <figure className="project__summary--fig-container__technical-logos--logo">
@@ -29,7 +29,7 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                     </article>
                 </article>
                 <article className="project__summary--desc">
-                    <h3 className="project__summary--desc__title">Mass Shootings U.S.</h3>
+                    <h3 className="project__summary--desc__title">DiabetesAssist</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
                         tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
                         nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
@@ -88,4 +88,4 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
     )
 }
 
-export default MassShootingsUS
+export default DiabetesAssist

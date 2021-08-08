@@ -3,24 +3,16 @@
     &__all-logos {
 
         flex-wrap: wrap;
+        align-items: flex-end;
 
         &--logo-container {
-
             width: 200px;
-            height: 200px;
-    
-            background-color: #2b2d31;
-            border-radius: 50%;
             margin: 10px;
     
             &__logo {
-                width: 150px;
-                height: 150px;
+                width: 100%;
+                height: auto;
                 margin: 0;
-    
-                background-color: #494c53;
-                border-radius: 50%;
-                box-shadow: 1px 4px 10px #121212;
 
                 & img {
                     width: 50%;
