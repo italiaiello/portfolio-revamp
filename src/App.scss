@@ -1,0 +1,53 @@
+html {
+  // background-color: #030c18;
+  background-color: #121212;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Lato;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  width: 40%;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 4px 1px #8f8f8f;
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05)
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
