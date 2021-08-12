@@ -12,6 +12,16 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
+                {
+                    showLargeOrSmall === 'large' ?
+                    <figure className="project__summary--large-pulse">
+                        <img src={largePulse} className="responsive-img" alt="Large pulse"/>
+                    </figure>
+                    :
+                    <figure className="project__summary--small-pulse">
+                        <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
+                    </figure>
+                }
                 <article className="project__summary--fig-container center-column">
                     <figure className="project__summary--fig-container__fig">
                         <img src={DiabetesAssistImage} alt="Diabetes Assist" className="responsive-img" />
@@ -36,7 +46,7 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
                         sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
                     </p>
-                    <div className="project__summary--desc__btn-container">
+                    <div className="project__summary--desc__btn-container center-row">
                         <button className="btn">Try It Out</button>
                         <button className="btn">See Code on GitHub</button>
                     </div>
@@ -73,16 +83,6 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         learned to good use. 
                     </p>
                 </article>
-            }
-            {
-                showLargeOrSmall === 'large' ?
-                <figure className="project__large-pulse">
-                    <img src={largePulse} className="responsive-img" alt="Large pulse"/>
-                </figure>
-                :
-                <figure className="project__small-pulse">
-                    <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
-                </figure>
             }
         </section>
     )

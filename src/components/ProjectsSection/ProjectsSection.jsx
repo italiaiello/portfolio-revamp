@@ -1,8 +1,8 @@
 import React from 'react'
 import MassShootingsUS from '../Projects/MassShootingsUS/MassShootingsUS'
 import DiabetesAssist from '../Projects/DiabetesAssist/DiabetesAssist'
-import LargePulse from '../../assets/pulses/large-pulse.svg'
-import SmallPulse from '../../assets/pulses/small-pulse.svg'
+import LargePulse from '../../assets/pulses/large-pulse.png'
+import SmallPulse from '../../assets/pulses/small-pulse.png'
 
 import './ProjectsSection.scss'
 

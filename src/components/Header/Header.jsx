@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderPulse from '../../assets/pulses/header-pulse.svg'
+import HeaderPulse from '../../assets/pulses/header-pulse.png'
 import './Header.scss'
 
 const Header = () => {

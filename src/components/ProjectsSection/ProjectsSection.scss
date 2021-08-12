@@ -1,28 +1,27 @@
 .projects-section {
 
     .project {
-        position: relative;
         margin-bottom: 100px;
 
-        &__large-pulse {
-            position: absolute;
-            left: -50px;
-            top: -70%;
-            z-index: -1;
-            margin: 0;
-            width: 70%;
-        }
-
-        &__small-pulse {
-            position: absolute;
-            right: 0;
-            top: -20%;
-            z-index: -1;
-            margin: 0;
-            width: 40%;
-        }
-
         &__summary {
+            position: relative;
+
+            &--large-pulse {
+                position: absolute;
+                z-index: -1;
+                left: 0;
+                margin: 0;
+                width: 70%;
+            }
+    
+            &--small-pulse {
+                position: absolute;
+                right: 0;
+                top: -20%;
+                z-index: -1;
+                margin: 0;
+                width: 40%;
+            }
 
             &--fig-container {
                 width: 40%;
