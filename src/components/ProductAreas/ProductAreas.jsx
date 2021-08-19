@@ -12,7 +12,7 @@ import './ProductAreas.scss'
 
 const ProductAreas = () => {
     return (
-        <section className="product-areas center-column">
+        <section className="product-areas section center-column">
             <h2 className="section-heading">Product Areas</h2>
             <article className="product-areas__all-logos center-row">
                 <article className="product-areas__all-logos--logo-container center-column">

@@ -12,6 +12,7 @@ const ProjectsSection = () => {
             <h2 className="section-heading">Projects Section</h2>
             <DiabetesAssist largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
             <MassShootingsUS largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'small'} />
+            <DiabetesAssist largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
         </section>
     )
 }
