@@ -38,11 +38,12 @@ const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                 </article>
                 <article className="project__summary--desc">
                     <h3 className="project__summary--desc__title">Nervi 360</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
-                        tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
-                        nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
-                        consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
-                        sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
+                    <p>
+                        This project was a part of The Exhibition Sydney, which was held at the Tin Sheds Gallery in the University of Sydney, and later at Australia Square. It showcased the architectural work of Pier Luigi Nervi, and as part of a group of three people, I helped create a VR and AR experience.
+                        <br/><br/>
+                        The VR experience (shown in the image) allowed you to walk and jump around within a 3D model of the Palazzetto dello Sport, designed by Nervi.
+                        <br/><br/>
+                        The AR experience had three buildings that the user could interact with. They had the option to either, explode (show what elements make up the building), spin, or create a cross-section of the building.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
                         <button className="btn">Try It Out</button>

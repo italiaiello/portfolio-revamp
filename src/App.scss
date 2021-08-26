@@ -55,3 +55,17 @@ h1, h2, h3, h4, h5 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+a {
+  color: #2F7EE6;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #B35112;
+}
