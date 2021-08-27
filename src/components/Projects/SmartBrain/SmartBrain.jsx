@@ -21,12 +21,11 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                     </figure>
                 }
                 <article className="project__summary--desc">
-                    <h3 className="project__summary--desc__title">DiabetesAssist</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
-                        tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
-                        nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
-                        consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
-                        sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
+                    <h3 className="project__summary--desc__title">Smart Brain</h3>
+                    <p>
+                        Using the Clarifai API, this application can apply facial recognition to images. Simply paste a link in the detection bar and rectangles will be drawn around all the faces in the specified image.
+                        <br/><br/>
+                        I made this as part of a Udemy course titled <span className="italic-text">The Complete Web Developer in 2021</span>, led by Andrei Neagoie. I wanted to learn how to use the React.js library, and this course helped me rapidly improve my skills and gain the confidence I needed to start building things on my own.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
                         <button className="btn">Try It Out</button>

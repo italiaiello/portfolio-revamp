@@ -7,6 +7,9 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
+    const openAppleDownload = () => window.open('https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing', '_blank')
+    const openAndroidDownload = () => window.open('https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing', '_blank')
+
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -38,15 +41,16 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                 </article>
                 <article className="project__summary--desc">
                     <h3 className="project__summary--desc__title">Day of the Dead VR</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
-                        tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
-                        nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
-                        consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
-                        sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
+                    <p>
+                        This was another group project that I worked on for university. Our brief was to create an informative and/or social experience using VR. We decided to focus on the Day of the Dead, a Mexican Festival, as the concept intrigued us and we thought it would be fun to replicate aspects of it in a virtual space.
+                        <br/><br/>
+                        A ’journey companion’ in the form of a floating, decorated skull guides the user through various stages, each stage having a new set of objectives to accomplish. By completing these objectives, more information about the festival is uncovered. 
+                        <br/><br/>
+                        When the user has progressed through all the stages, they will have a better understanding of what the Day of the Dead festival is about.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn">Try It Out</button>
-                        <button className="btn">See Code on GitHub</button>
+                        <button className="btn" onClick={openAppleDownload}>Download iOS Build</button>
+                        <button className="btn" onClick={openAndroidDownload}>Download APK</button>
                     </div>
                 </article>
             </article>

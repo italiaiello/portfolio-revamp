@@ -17,9 +17,9 @@ const ProjectsSection = () => {
             <Nervi largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
             <MassShootingsUS largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'small'} />
             <DiabetesAssist largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
-            <SmartBrain largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'small'} />
-            <DotD largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
             <FootballRoundUp largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'small'} />
+            <DotD largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'large'} />
+            <SmartBrain largePulse={LargePulse} smallPulse={SmallPulse} showLargeOrSmall={'small'} />
         </section>
     )
 }

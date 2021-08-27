@@ -7,6 +7,9 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
+    const openGitHubRepo = () => window.open('https://github.com/italiaiello/football-round-up', '_blank')
+    const openDemoPage = () => window.open('https://italiaiello.github.io/football-round-up/', '_blank')
+
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -21,16 +24,17 @@ const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                     </figure>
                 }
                 <article className="project__summary--desc">
-                    <h3 className="project__summary--desc__title">Mass Shootings U.S.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
-                        tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
-                        nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
-                        consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
-                        sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
+                    <h3 className="project__summary--desc__title">Football Round Up</h3>
+                    <p>
+                        This was the first application I created on my own. I love playing and watching football, so I thought it would be great to create a project about something I’m passionate about.
+                        <br/><br/>
+                        I used the SportsDB API to retrieve all the relevant data. This is another full stack project, which was the first one I had coded all on my own after the completion of the Smart Brain project. 
+                        <br/><br/>
+                        It’s not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
                     </p>
                     <div className="project__summary--desc__btn-container">
-                        <button className="btn">Try It Out</button>
-                        <button className="btn">See Code on GitHub</button>
+                        <button className="btn" onClick={openDemoPage}>Try It Out</button>
+                        <button className="btn" onClick={openGitHubRepo}>See Code on GitHub</button>
                     </div>
                 </article>
                 <article className="project__summary--fig-container center-column">

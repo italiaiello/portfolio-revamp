@@ -7,6 +7,9 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
+    const openGitHubRepo = () => window.open('https://github.com/italiaiello/diabetes-assist', '_blank')
+    const openDemoPage = () => window.open('https://italiaiello.github.io/diabetes-assist/', '_blank')
+
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -38,15 +41,17 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                 </article>
                 <article className="project__summary--desc">
                     <h3 className="project__summary--desc__title">DiabetesAssist</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat ex ac gravida blandit. Nunc quis neque purus. Morbi 
-                        tincidunt magna laoreet, porta magna non, ultrices justo. Donec id dui massa. Nam blandit vestibulum vehicula. Sed et neque 
-                        nec ipsum pellentesque interdum quis sollicitudin tortor. Donec porta et erat nec faucibus. Nullam auctor, urna non malesuada 
-                        consequat, augue urna egestas massa, ut porttitor lorem risus et justo. Maecenas sit amet nunc at ante convallis dictum eu sed 
-                        sapien. Phasellus magna neque, varius non sollicitudin et, rutrum vel quam.
+                    <p>
+                    The concept for this project was inspired by a group project I did at uni. We were focussing on creating a solution that would provide individuals with more control over their diabetes.
+                    <br/><br/>
+                    We were specifically addressing how some people with diabetes saw insulin injections were a last resort, so if they became dependent on these injections, it may make them feel like they have lost control. Thus we tried to come up with a solution that would help return some control back to the individual.
+                    <br/><br/>
+                    This application acts as a hub for diabetes, providing important information and support all in one place. It allows people to track their blood glucose levels, book appointments with health professionals, and create diabetes-friendly meal plans.
+
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn">Try It Out</button>
-                        <button className="btn">See Code on GitHub</button>
+                        <button className="btn" onClick={openDemoPage}>Try It Out</button>
+                        <button className="btn" onClick={openGitHubRepo}>See Code on GitHub</button>
                     </div>
                 </article>
             </article>
