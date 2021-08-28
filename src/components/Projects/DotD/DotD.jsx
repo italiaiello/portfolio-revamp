@@ -7,9 +7,6 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
-    const openAppleDownload = () => window.open('https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing', '_blank')
-    const openAndroidDownload = () => window.open('https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing', '_blank')
-
     return (
         <section className="project center-column">
             <article className="project__summary center-row">

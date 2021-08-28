@@ -7,9 +7,6 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
-    const openGitHubRepo = () => window.open('https://github.com/italiaiello/diabetes-assist', '_blank')
-    const openDemoPage = () => window.open('https://italiaiello.github.io/diabetes-assist/', '_blank')
-
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -50,8 +47,8 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn" onClick={openDemoPage}>Try It Out</button>
-                        <button className="btn" onClick={openGitHubRepo}>See Code on GitHub</button>
+                        <a href="https://italiaiello.github.io/diabetes-assist/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
+                        <a href="https://github.com/italiaiello/diabetes-assist" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
                     </div>
                 </article>
             </article>

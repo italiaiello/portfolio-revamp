@@ -7,9 +7,6 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
-    const openGitHubRepo = () => window.open('https://github.com/italiaiello/info-vis', '_blank')
-    const openDemoPage = () => window.open('https://italiaiello.github.io/info-vis/', '_blank')
-
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -33,9 +30,9 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         This was the first time I was able to use React for a real project, and it was so amazing to finally put my new skills to good use.
 
                     </p>
-                    <div className="project__summary--desc__btn-container">
-                        <button className="btn" onClick={openDemoPage}>Try It Out</button>
-                        <button className="btn" onClick={openGitHubRepo}>See Code on GitHub</button>
+                    <div className="project__summary--desc__btn-container center-row">
+                        <a href="https://italiaiello.github.io/info-vis/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
+                        <a href="https://github.com/italiaiello/info-vis" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
                     </div>
                 </article>
                 <article className="project__summary--fig-container center-column">

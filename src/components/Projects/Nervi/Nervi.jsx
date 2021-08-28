@@ -7,8 +7,6 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
-    const goToDownloadPage = () => window.open('https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing', '_blank')
-
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -48,7 +46,7 @@ const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         The AR experience had three buildings that the user could interact with. They had the option to either, explode (show what elements make up the building), spin, or create a cross-section of the building.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn" onClick={goToDownloadPage}>Download AR Experience for Android Tablet</button>
+                        <a href="https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download AR Experience (APK)</a>
                     </div>
                 </article>
             </article>

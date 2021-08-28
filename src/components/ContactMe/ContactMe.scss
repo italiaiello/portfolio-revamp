@@ -1,0 +1,17 @@
+.contact-me {
+
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    &__divider {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    &__mail-btn {
+        width: 20%;
+        min-width: 200px;
+    }
+}

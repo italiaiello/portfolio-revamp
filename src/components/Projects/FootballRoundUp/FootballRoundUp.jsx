@@ -7,9 +7,6 @@ import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
-    const openGitHubRepo = () => window.open('https://github.com/italiaiello/football-round-up', '_blank')
-    const openDemoPage = () => window.open('https://italiaiello.github.io/football-round-up/', '_blank')
-
     return (
         <section className="project center-column">
             <article className="project__summary center-row">
@@ -32,9 +29,9 @@ const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         <br/><br/>
                         It’s not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
                     </p>
-                    <div className="project__summary--desc__btn-container">
-                        <button className="btn" onClick={openDemoPage}>Try It Out</button>
-                        <button className="btn" onClick={openGitHubRepo}>See Code on GitHub</button>
+                    <div className="project__summary--desc__btn-container center-row">
+                        <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
+                        <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
                     </div>
                 </article>
                 <article className="project__summary--fig-container center-column">

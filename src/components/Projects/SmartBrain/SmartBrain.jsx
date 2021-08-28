@@ -25,11 +25,11 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                     <p>
                         Using the Clarifai API, this application can apply facial recognition to images. Simply paste a link in the detection bar and rectangles will be drawn around all the faces in the specified image.
                         <br/><br/>
-                        I made this as part of a Udemy course titled <span className="italic-text">The Complete Web Developer in 2021</span>, led by Andrei Neagoie. I wanted to learn how to use the React.js library, and this course helped me rapidly improve my skills and gain the confidence I needed to start building things on my own.
+                        I made this as part of a Udemy course titled <span className="italic-text">The Complete Web Developer in 2019</span>, led by Andrei Neagoie. I wanted to learn how to use the React library, and this course helped me rapidly improve my skills and gain the confidence I needed to start building things on my own.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn">Try It Out</button>
-                        <button className="btn">See Code on GitHub</button>
+                        <a href="https://github.com/italiaiello/facerecognitionbrain" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
+                        <a href="https://github.com/italiaiello/smart-brain-api" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
                     </div>
                 </article>
                 <article className="project__summary--fig-container center-column">
