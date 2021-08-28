@@ -28,7 +28,7 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                     <p>
                         This was a project I worked on for a uni group assignment. Our brief was to find any dataset and display this data in an engaging way through a range of interactive graphs made with JavaScript. We utilised a dataset comprising all the Mass Shootings in the U.S. over the past 52 years, dating back from 2016.
                         <br/><br/>
-                        To make these graphs, we used D3.js as it provided the most freedom for customisation. Moreover, we paired it with React to make use of state, which made implementing the graph interactions easier. We followed many YouTube tutorials from a channel called <a href="https://www.youtube.com/watch?v=9uEmNgHzPhQ&list=PLDZ4p-ENjbiPo4WH7KdHjh_EMI7Ic8b2B">The Muratorium</a>, which gave us the confidence to implement some complex interactions, such as with the GeoMap depicted in the image.
+                        To make these graphs, we used D3.js as it provided the most freedom for customisation. Moreover, we paired it with React to make use of state, which made implementing the graph interactions easier. We followed many YouTube tutorials from a channel called <a href="https://www.youtube.com/watch?v=9uEmNgHzPhQ&list=PLDZ4p-ENjbiPo4WH7KdHjh_EMI7Ic8b2B" target="_blank" rel="noreferrer" className="hyperlink">The Muratorium</a>, which gave us the confidence to implement some complex interactions, such as with the GeoMap depicted in the image.
                         <br/><br/>
                         This was the first time I was able to use React for a real project, and it was so amazing to finally put my new skills to good use.
 

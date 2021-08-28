@@ -49,8 +49,8 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         When the user has progressed through all the stages, they will have a better understanding of what the Day of the Dead festival is about.
                     </p>
                     <div className="project__summary--desc__btn-container center-row">
-                        <button className="btn" onClick={openAppleDownload}>Download iOS Build</button>
-                        <button className="btn" onClick={openAndroidDownload}>Download APK</button>
+                        <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download iOS Build</a>
+                        <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download APK</a>
                     </div>
                 </article>
             </article>

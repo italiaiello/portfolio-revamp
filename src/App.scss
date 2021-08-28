@@ -30,6 +30,20 @@ h1, h2, h3, h4, h5 {
   flex-direction: column;
 }
 
+.hyperlink {
+  color: #2F7EE6;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+.hyperlink:active {
+  color: #B35112;
+}
+
 .btn {
   width: 40%;
   padding: 20px;
@@ -39,10 +53,14 @@ h1, h2, h3, h4, h5 {
   border: none;
   box-shadow: 1px 4px 1px #8f8f8f;
   transition: all .2s ease-in-out;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 .btn:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 .responsive-img {
@@ -58,18 +76,4 @@ h1, h2, h3, h4, h5 {
   font-size: 2.5rem;
   margin-top: 20px;
   margin-bottom: 40px;
-}
-
-a {
-  color: #2F7EE6;
-  text-decoration: none;
-  transition: all .1s ease-in-out;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: #B35112;
 }
