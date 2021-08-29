@@ -9,7 +9,7 @@ const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
     return (
         <section className="project center-column">
-            <article className="project__summary center-row">
+            <article className="project__summary center-row mobile-reverse-col">
                 {
                     showLargeOrSmall === 'large' ?
                     <figure className="project__summary--large-pulse">

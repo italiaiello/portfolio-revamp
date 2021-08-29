@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .center-column {
@@ -28,20 +29,17 @@ h1, h2, h3, h4, h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.hyperlink {
-  color: #2F7EE6;
-  text-decoration: none;
-  transition: all .1s ease-in-out;
-}
-
-.hyperlink:hover {
-  text-decoration: underline;
-}
-
-.hyperlink:active {
-  color: #B35112;
+@media only screen and (max-width: 600px) {
+  .mobile-reverse-row {
+    flex-direction: row-reverse;
+  }
+  
+  .mobile-reverse-col {
+    flex-direction: column-reverse;
+  }
 }
 
 .btn {

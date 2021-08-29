@@ -6,7 +6,8 @@
         align-items: flex-end;
 
         &--logo-container {
-            width: 200px;
+            width: 20%;
+            min-width: 100px;
             margin: 10px;
     
             &__logo {

@@ -1,7 +1,14 @@
 .projects-section {
 
-    .project {
+    .project:not(:last-child) {
         margin-bottom: 500px;
+    }
+
+    .project:last-child {
+        margin-bottom: 200px;
+    }
+
+    .project {
 
         &__summary {
             position: relative;
@@ -24,6 +31,7 @@
 
             &--fig-container {
                 width: 40%;
+                min-width: 250px;
                 background-color: rgb(82, 82, 82);
                 border-radius: 30px;
                 margin: 10px;
@@ -54,24 +62,21 @@
 
             &--desc {
                 width: 40%;
+                min-width: 250px;
                 margin: 10px;
                 text-align: justify;
                 &__title {
                     font-size: 1.5rem;
                 }
             }
+
+            @media only screen and (max-width: 600px) {
+                &--desc {
+                    text-align: left;
+                }
+            }
         }
 
-        &__details-btn {
-            margin: 50px 0;
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid white;
-            color: white;
-            width: 200px;
-            padding: 20px;
-            font-size: 1.1rem;
-            cursor: pointer;
-        }
 
         &__details {
             width: 60%;
@@ -79,6 +84,33 @@
 
             &--title {
                 font-size: 1.5rem;
+            }
+        }
+    }
+
+
+    // Mobile styling
+    @media only screen and (max-width: 600px) {
+        .project:not(:last-child) {
+            margin-bottom: 100px;
+        }
+    
+        .project:last-child {
+            margin-bottom: 200px;
+        }
+
+        .project {
+            width: 100%;
+            &__summary {
+                &--fig-container {
+                    width: 80%;
+                }
+                &--desc {
+                    width: 80%;
+                    &__btn-container {
+                        width: 100%;
+                    }
+                }
             }
         }
     }
