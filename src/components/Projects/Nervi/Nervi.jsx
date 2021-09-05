@@ -20,34 +20,36 @@ const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
-                <article className="project__summary--fig-container center-column">
-                    <figure className="project__summary--fig-container__fig">
-                        <img src={NerviImage} alt="Nervi virtual reality experience" className="responsive-img" />
-                    </figure>
-                    <article className="project__summary--fig-container__technical-logos">
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={D3Icon} alt="D3" className="responsive-img" />
+                <article className="project__summary--details center-row">
+                    <article className="project__summary--details__fig-and-icons center-column">
+                        <figure className="project__summary--details__fig-and-icons--fig">
+                            <img src={NerviImage} alt="Nervi virtual reality experience" className="responsive-img" />
                         </figure>
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
-                        </figure>
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={ReactIcon} alt="React" className="responsive-img" />
-                        </figure>
+                        <article className="project__summary--details__fig-and-icons--icons">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            </figure>
+                        </article>
                     </article>
-                </article>
-                <article className="project__summary--desc">
-                    <h3 className="project__summary--desc__title">Nervi 360</h3>
-                    <p>
-                        This project was a part of The Exhibition Sydney, which was held at the Tin Sheds Gallery in the University of Sydney, and later at Australia Square. It showcased the architectural work of Pier Luigi Nervi, and as part of a group of three people, I helped create a VR and AR experience.
-                        <br/><br/>
-                        The VR experience (shown in the image) allowed you to walk and jump around within a 3D model of the Palazzetto dello Sport, designed by Nervi.
-                        <br/><br/>
-                        The AR experience had three buildings that the user could interact with. They had the option to either, explode (show what elements make up the building), spin, or create a cross-section of the building.
-                    </p>
-                    <div className="project__summary--desc__btn-container center-row">
-                        <a href="https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download AR Experience (APK)</a>
-                    </div>
+                    <article className="project__summary--details__desc">
+                        <h3 className="project__summary--details__desc--title">Nervi 360</h3>
+                        <p>
+                            This project was a part of The Exhibition Sydney, which was held at the Tin Sheds Gallery in the University of Sydney, and later at Australia Square. It showcased the architectural work of Pier Luigi Nervi, and as part of a group of three people, I helped create a VR and AR experience.
+                            <br/><br/>
+                            The VR experience (shown in the image) allowed you to walk and jump around within a 3D model of the Palazzetto dello Sport, designed by Nervi.
+                            <br/><br/>
+                            The AR experience had three buildings that the user could interact with. They had the option to either, explode (show what elements make up the building), spin, or create a cross-section of the building.
+                        </p>
+                        <div className="project__summary--details__desc--btn-container center-row">
+                            <a href="https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download AR Experience (APK)</a>
+                        </div>
+                    </article>
                 </article>
             </article>
         </section>

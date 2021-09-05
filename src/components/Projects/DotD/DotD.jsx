@@ -20,35 +20,37 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
-                <article className="project__summary--fig-container center-column">
-                    <figure className="project__summary--fig-container__fig">
-                        <img src={DotdImage} alt="Day of the Dead virtual reality experience" className="responsive-img" />
-                    </figure>
-                    <article className="project__summary--fig-container__technical-logos">
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={D3Icon} alt="D3" className="responsive-img" />
+                <article className="project__summary--details center-row">
+                    <article className="project__summary--details__fig-and-icons center-column">
+                        <figure className="project__summary--details__fig-and-icons--fig">
+                            <img src={DotdImage} alt="Day of the Dead virtual reality experience" className="responsive-img" />
                         </figure>
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
-                        </figure>
-                        <figure className="project__summary--fig-container__technical-logos--logo">
-                            <img src={ReactIcon} alt="React" className="responsive-img" />
-                        </figure>
+                        <article className="project__summary--details__fig-and-icons--icons">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            </figure>
+                        </article>
                     </article>
-                </article>
-                <article className="project__summary--desc">
-                    <h3 className="project__summary--desc__title">Day of the Dead VR</h3>
-                    <p>
-                        This was another group project that I worked on for university. Our brief was to create an informative and/or social experience using VR. We decided to focus on the Day of the Dead, a Mexican Festival, as the concept intrigued us and we thought it would be fun to replicate aspects of it in a virtual space.
-                        <br/><br/>
-                        A ’journey companion’ in the form of a floating, decorated skull guides the user through various stages, each stage having a new set of objectives to accomplish. By completing these objectives, more information about the festival is uncovered. 
-                        <br/><br/>
-                        When the user has progressed through all the stages, they will have a better understanding of what the Day of the Dead festival is about.
-                    </p>
-                    <div className="project__summary--desc__btn-container center-row">
-                        <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download iOS Build</a>
-                        <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download APK</a>
-                    </div>
+                    <article className="project__summary--details__desc">
+                        <h3 className="project__summary--details__desc--title">Day of the Dead VR</h3>
+                        <p>
+                            This was another group project that I worked on for university. Our brief was to create an informative and/or social experience using VR. We decided to focus on the Day of the Dead, a Mexican Festival, as the concept intrigued us and we thought it would be fun to replicate aspects of it in a virtual space.
+                            <br/><br/>
+                            A ’journey companion’ in the form of a floating, decorated skull guides the user through various stages, each stage having a new set of objectives to accomplish. By completing these objectives, more information about the festival is uncovered. 
+                            <br/><br/>
+                            When the user has progressed through all the stages, they will have a better understanding of what the Day of the Dead festival is about.
+                        </p>
+                        <div className="project__summary--details__desc--btn-container center-row">
+                            <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download iOS Build</a>
+                            <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download APK</a>
+                        </div>
+                    </article>
                 </article>
             </article>
         </section>
