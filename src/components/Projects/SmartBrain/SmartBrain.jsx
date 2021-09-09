@@ -9,7 +9,7 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
 
     return (
         <section className="project center-column">
-            <article className="project__summary center-row mobile-reverse-col">
+            <article className="project__summary center-row">
                 {
                     showLargeOrSmall === 'large' ?
                     <figure className="project__summary--large-pulse">
@@ -20,7 +20,7 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
-                <article className="project__summary--details center-row">
+                <article className="project__summary--details center-row mobile-reverse-col">
                     <article className="project__summary--details__desc">
                         <h3 className="project__summary--details__desc--title">Smart Brain</h3>
                         <p>

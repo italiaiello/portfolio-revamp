@@ -20,7 +20,7 @@ const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
-                <article className="project__summary--details center-row">
+                <article className="project__summary--details center-row mobile-reverse-col">
                     <article className="project__summary--details__desc">
                         <h3 className="project__summary--details__desc--title">Football Round Up</h3>
                         <p>
