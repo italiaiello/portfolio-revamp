@@ -83,19 +83,13 @@
                     min-width: 250px;
                     margin: 20px;
                     text-align: justify;
+                    font-size: 1.2vw;
 
                     &--title {
                         font-size: 1.5rem;
                         margin-top: 0;
                     }
-                }
-            }
-
-            
-
-            @media only screen and (max-width: 600px) {
-                &--desc {
-                    text-align: left;
+                        
                 }
             }
         }
@@ -142,6 +136,7 @@
                         margin-left: auto;
                         margin-right: auto;
                         text-align: left;
+                        font-size: 1.3rem;
 
                         &--btn-container {
                             width: 100%;

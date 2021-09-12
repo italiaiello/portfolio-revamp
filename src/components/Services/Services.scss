@@ -1,9 +1,13 @@
-.product-areas {
+.services {
+
+    flex-wrap: wrap;
     
     &__all-logos {
 
         flex-wrap: wrap;
         align-items: flex-end;
+
+        width: 100%;
 
         &--logo-container {
             width: 20%;
@@ -13,6 +17,7 @@
     
             &__logo {
                 width: 100%;
+                height: auto;
                 margin: 0;
 
                 & img {
@@ -21,7 +26,5 @@
             }
         }
     }
-
-    flex-wrap: wrap;
 
 }
