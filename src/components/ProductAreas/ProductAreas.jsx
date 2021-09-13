@@ -32,6 +32,12 @@ const ProductAreas = () => {
                 </article>
                 <article className="product-areas__all-logos--logo-container center-column">
                     <figure className="product-areas__all-logos--logo-container__logo center-row">
+                        <img src={ReactLogo} alt="React" />
+                    </figure>
+                    <p>React</p>
+                </article>
+                <article className="product-areas__all-logos--logo-container center-column">
+                    <figure className="product-areas__all-logos--logo-container__logo center-row">
                         <img src={Sass} alt="Sass" />
                     </figure>
                     <p>Sass</p>
@@ -41,12 +47,6 @@ const ProductAreas = () => {
                         <img src={NodeJs} alt="Node Js" />
                     </figure>
                     <p>Node Js</p>
-                </article>
-                <article className="product-areas__all-logos--logo-container center-column">
-                    <figure className="product-areas__all-logos--logo-container__logo center-row">
-                        <img src={ReactLogo} alt="React" />
-                    </figure>
-                    <p>React</p>
                 </article>
             </article>
         </section>

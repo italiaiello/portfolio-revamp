@@ -1,8 +1,10 @@
 import React from 'react'
 import FruImage from '../../../assets/images/fru.png'
-import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
+import NodeIcon from '../../../assets/icons/technical-icons/nodejs.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
+import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
+import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
 
 
 const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
@@ -40,14 +42,20 @@ const FootballRoundUp = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={FruImage} alt="Football Round-Up" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
+                                <img src={ReactIcon} alt="React" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Node Js">
+                                <img src={NodeIcon} alt="Node JS" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="PSequel">
+                                <img src={PSequelIcon} alt="PSequel" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="GitHub">
                                 <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Heroku">
+                                <img src={HerokuIcon} alt="Heroku" className="responsive-img" />
                             </figure>
                         </article>
                     </article>

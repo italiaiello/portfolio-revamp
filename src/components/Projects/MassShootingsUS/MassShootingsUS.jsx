@@ -41,13 +41,13 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={MassShootings} alt="Mass Shootings U.S. Project" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="D3">
                                 <img src={D3Icon} alt="D3" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="GitHub">
                                 <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
                                 <img src={ReactIcon} alt="React" className="responsive-img" />
                             </figure>
                         </article>

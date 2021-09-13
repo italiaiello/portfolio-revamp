@@ -1,8 +1,9 @@
 import React from 'react'
 import DiabetesAssistImage from '../../../assets/images/diabetes-assist.png'
-import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
+import FigmaIcon from '../../../assets/icons/technical-icons/figma.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
+import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
 
 
 const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
@@ -26,14 +27,17 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={DiabetesAssistImage} alt="Diabetes Assist" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
+                                <img src={ReactIcon} alt="React" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Figma">
+                                <img src={FigmaIcon} alt="Figma" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="GitHub">
                                 <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Heroku">
+                                <img src={HerokuIcon} alt="Heroku" className="responsive-img" />
                             </figure>
                         </article>
                     </article>

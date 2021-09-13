@@ -1,8 +1,9 @@
 import React from 'react'
 import DotdImage from '../../../assets/images/dotd.JPG'
-import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
-import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
-import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
+import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
+import VirtualRealityIcon from '../../../assets/icons/technical-icons/virtual-reality.svg'
+import AndroidIcon from '../../../assets/icons/technical-icons/Android_robot.svg'
+import AppleIcon from '../../../assets/icons/technical-icons/Apple_logo.svg'
 
 
 const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
@@ -26,14 +27,17 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={DotdImage} alt="Day of the Dead virtual reality experience" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Unity">
+                                <img src={UnityIcon} alt="Unity" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Virtual Reality">
+                                <img src={VirtualRealityIcon} alt="VirtualReality" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Android">
+                                <img src={AndroidIcon} alt="Android" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Apple">
+                                <img src={AppleIcon} alt="Apple" className="responsive-img" />
                             </figure>
                         </article>
                     </article>

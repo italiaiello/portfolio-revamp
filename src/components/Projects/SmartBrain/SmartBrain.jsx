@@ -1,7 +1,9 @@
 import React from 'react'
 import SmartBrainImage from '../../../assets/images/smart-brain.png'
-import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
-import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
+import NodeIcon from '../../../assets/icons/technical-icons/nodejs.svg'
+import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
+import DockerIcon from '../../../assets/icons/technical-icons/Docker_logo.svg'
+import RedisIcon from '../../../assets/icons/technical-icons/redis.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 
 
@@ -38,14 +40,20 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={SmartBrainImage} alt="Diabetes Assist" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={D3Icon} alt="D3" className="responsive-img" />
-                            </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
-                            </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
                                 <img src={ReactIcon} alt="React" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Node JS">
+                                <img src={NodeIcon} alt="Node JS" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Node JS">
+                                <img src={PSequelIcon} alt="PSequel" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Docker">
+                                <img src={DockerIcon} alt="Docker" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Redis">
+                                <img src={RedisIcon} alt="Redis" className="responsive-img" />
                             </figure>
                         </article>
                     </article>

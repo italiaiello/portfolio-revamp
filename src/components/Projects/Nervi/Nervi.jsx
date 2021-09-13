@@ -1,8 +1,9 @@
 import React from 'react'
 import NerviImage from '../../../assets/images/nervi.JPG'
-import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
-import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
-import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
+import HTCViveIcon from '../../../assets/icons/technical-icons/htc-vive-logo.svg'
+import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
+import VuforiaIcon from '../../../assets/icons/technical-icons/vuforia.svg'
+import AndroidIcon from '../../../assets/icons/technical-icons/Android_robot.svg'
 
 
 const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
@@ -26,14 +27,17 @@ const Nervi = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                             <img src={NerviImage} alt="Nervi virtual reality experience" className="responsive-img" />
                         </figure>
                         <article className="project__summary--details__fig-and-icons--icons">
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={D3Icon} alt="D3" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Unity">
+                                <img src={UnityIcon} alt="Unity" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Vuforia">
+                                <img src={VuforiaIcon} alt="Vuforia" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row">
-                                <img src={ReactIcon} alt="React" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Android">
+                                <img src={AndroidIcon} alt="Android" className="responsive-img" />
+                            </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="HTC Vive">
+                                <img src={HTCViveIcon} alt="HTC Vive" className="responsive-img" />
                             </figure>
                         </article>
                     </article>
