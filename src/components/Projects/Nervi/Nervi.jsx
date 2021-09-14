@@ -1,5 +1,5 @@
 import React from 'react'
-import NerviImage from '../../../assets/images/nervi.JPG'
+import NerviImage from '../../../assets/images/Nervi.JPG'
 import HTCViveIcon from '../../../assets/icons/technical-icons/htc-vive-logo.svg'
 import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
 import VuforiaIcon from '../../../assets/icons/technical-icons/vuforia.svg'
