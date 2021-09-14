@@ -1,5 +1,5 @@
 import React from 'react'
-import DotdImage from '../../../assets/images/dotd.JPG'
+import DotdImage from '../../../assets/images/DotD.JPG'
 import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
 import VirtualRealityIcon from '../../../assets/icons/technical-icons/virtual-reality.svg'
 import AndroidIcon from '../../../assets/icons/technical-icons/Android_robot.svg'
