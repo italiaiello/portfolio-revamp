@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5 {
   flex-wrap: wrap;
 }
 
+@media only screen and (min-width: 2000px) {
+  .lg-space-around {
+    justify-content: space-around;
+  }
+}
+
 .center-column {
   display: flex;
   justify-content: center;

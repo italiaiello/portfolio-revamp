@@ -12,6 +12,26 @@
         }
     }
 
+    /* Large Screen Styling */
+    @media only screen and (min-width: 2000px) {
+        &__info {
+
+            &--icon-container {
+                width: 30%;
+                font-size: 1.5vw;
+
+                &__icon {
+                    margin: 10px;
+
+                    & img {
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Mobile Styling */
     @media only screen and (max-width: 600px) {
         &__info {
             

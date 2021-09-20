@@ -11,7 +11,7 @@ const ProductAreas = () => {
     return (
         <section className="product-areas section center-column">
             <h2 className="section-heading">Product Areas</h2>
-            <article className="product-areas__all-logos center-row">
+            <article className="product-areas__all-logos center-row lg-space-around">
                 <article className="product-areas__all-logos--logo-container center-column">
                     <figure className="product-areas__all-logos--logo-container__logo center-row">
                         <img src={HTMLIcon} alt="HTML" />

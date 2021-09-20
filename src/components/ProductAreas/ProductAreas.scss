@@ -24,4 +24,25 @@
 
     flex-wrap: wrap;
 
+    /* Large Screen Styling */
+    @media only screen and (min-width: 2000px) {
+        &__all-logos {
+            width: 80%;
+    
+            &--logo-container {
+        
+                &__logo {
+    
+                    & img {
+                        width: 80%;
+                    }
+                }
+
+                & p {
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+
 }
