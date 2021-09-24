@@ -5,7 +5,7 @@ import './Header.scss'
 const Header = () => {
     return (
         <section className="header">
-            <figure className="header__pulse">
+            <figure className="header__pulse hide-on-mobile">
                 <img src={HeaderPulse} className="responsive-img" alt="Header pulse" />
             </figure>
             <article className="header__intro center-column">

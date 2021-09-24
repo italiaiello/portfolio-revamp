@@ -87,3 +87,17 @@ h1, h2, h3, h4, h5 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.show-on-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .show-on-mobile {
+    display: block;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
