@@ -37,16 +37,22 @@
         z-index: -1;
     }
 
+    &__pulse-mobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
     @media only screen and (max-width: 600px) {
 
         align-items: center;
-        background: linear-gradient(#276AC2, #121212); 
 
         &__intro {
             width: 100%;
             margin: 0;
-
-            
 
             &--name {
                 font-size: 2.5rem;

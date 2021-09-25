@@ -122,11 +122,13 @@
                 width: 100%;
 
                 &--large-pulse {
-                    width: 90%;
+                    width: 200%;
+                    left: -280px;
                 }
         
                 &--small-pulse {
-                    width: 70%;
+                    width: 150%;
+                    right: -300px;
                 }
 
                 &--details {
