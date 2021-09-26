@@ -17,7 +17,7 @@ const Header = () => {
                 <p className="header__intro--desc">And I'm passionate about expressing my creativity with code</p>
                 <article className="header__intro--btn-container center-row">
                     <button className="btn header__intro--btn">GitHub</button>
-                    <button className="btn header__intro--btn">LinkedIn</button>
+                    <button className="btn header__intro--btn alternate-btn">LinkedIn</button>
                 </article>
             </article>
         </section>

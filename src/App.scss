@@ -16,17 +16,16 @@ h1, h2, h3, h4, h5 {
   font-style: italic;
 }
 
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
 .center-row {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-@media only screen and (min-width: 2000px) {
-  .lg-space-around {
-    justify-content: space-around;
-  }
 }
 
 .center-column {
@@ -37,6 +36,14 @@ h1, h2, h3, h4, h5 {
   flex-wrap: wrap;
 }
 
+// Better spacing for items on larger screens
+@media only screen and (min-width: 2000px) {
+  .lg-space-around {
+    justify-content: space-around;
+  }
+}
+
+// Mobile specific row and column config
 @media only screen and (max-width: 600px) {
   .mobile-reverse-row {
     flex-direction: row-reverse;
@@ -47,6 +54,8 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+/* Buttons */
+
 .btn {
   width: 35%;
   padding: 20px;
@@ -54,9 +63,9 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
   border-radius: 10px;
   border: none;
-  box-shadow: 1px 4px 1px #8f8f8f;
+  background-color: #E9AE69;
+  box-shadow: 1px 4px 1px #aa7436;
   transition: all .2s ease-in-out;
-  background-color: white;
   text-align: center;
   color: black;
   text-decoration: none;
@@ -66,11 +75,15 @@ h1, h2, h3, h4, h5 {
   transform: scale(1.05);
 }
 
-.responsive-img {
-  width: 100%;
-  height: auto;
+.alternate-btn {
+  background: none;
+  box-shadow: 1px 4px 1px #aa7436;
+  border: 2px solid #E9AE69;
+  color: #E9AE69;
+  background-color: rgba(18, 18, 18, 0.8);
 }
 
+/* Section Containers */
 .section {
   margin-bottom: 200px;
 }
@@ -87,6 +100,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 40px;
 }
 
+/* Hide and show elements on mobile */
 .show-on-mobile {
   display: none;
 }

@@ -32,7 +32,7 @@ const SmartBrain = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
                             <a href="https://github.com/italiaiello/facerecognitionbrain" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
-                            <a href="https://github.com/italiaiello/smart-brain-api" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
+                            <a href="https://github.com/italiaiello/smart-brain-api" target="_blank" rel="noreferrer" className="btn alternate-btn">See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

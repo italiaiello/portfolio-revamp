@@ -33,7 +33,7 @@ const MassShootingsUS = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
                             <a href="https://italiaiello.github.io/info-vis/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
-                            <a href="https://github.com/italiaiello/info-vis" target="_blank" rel="noreferrer" className="btn">See Code on GitHub</a>
+                            <a href="https://github.com/italiaiello/info-vis" target="_blank" rel="noreferrer" className="btn alternate-btn">See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

@@ -52,7 +52,7 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
                             <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download iOS Build</a>
-                            <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download APK</a>
+                            <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn alternate-btn">Download APK</a>
                         </div>
                     </article>
                 </article>
