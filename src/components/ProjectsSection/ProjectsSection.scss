@@ -119,18 +119,27 @@
 
         .project {
             width: 100%;
+
             &__summary {
                 width: 100%;
 
                 &--large-pulse {
-                    width: 140%;
+                    width: 150%;
                     left: -200px;
+
+                    & img {
+                        width: 90%;
+                    }
+
                 }
         
                 &--small-pulse {
-                    width: 100%;
-                    right: -150px;
+                    width: 120%;
+                    right: -180px;
                     
+                    & img {
+                        width: 90%;
+                    }
                 }
 
                 &--details {
