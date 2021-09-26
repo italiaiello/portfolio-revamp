@@ -12,6 +12,7 @@
 
         &__summary {
             position: relative;
+            overflow: hidden;
 
             &--large-pulse {
                 position: absolute;
@@ -122,13 +123,14 @@
                 width: 100%;
 
                 &--large-pulse {
-                    width: 200%;
-                    left: -280px;
+                    width: 140%;
+                    left: -200px;
                 }
         
                 &--small-pulse {
-                    width: 150%;
-                    right: -300px;
+                    width: 100%;
+                    right: -150px;
+                    
                 }
 
                 &--details {
