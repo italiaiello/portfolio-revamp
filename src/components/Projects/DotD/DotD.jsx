@@ -4,9 +4,11 @@ import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
 import VirtualRealityIcon from '../../../assets/icons/technical-icons/virtual-reality.svg'
 import AndroidIcon from '../../../assets/icons/technical-icons/Android_robot.svg'
 import AppleIcon from '../../../assets/icons/technical-icons/Apple_logo.svg'
+import LargePulse from '../../../assets/pulses/large-pulse.png'
+import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
+const DotD = ({ showLargeOrSmall }) => {
 
     return (
         <section className="project center-column">
@@ -14,11 +16,11 @@ const DotD = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                 {
                     showLargeOrSmall === 'large' ?
                     <figure className="project__summary--large-pulse">
-                        <img src={largePulse} className="responsive-img" alt="Large pulse"/>
+                        <img src={LargePulse} className="responsive-img" alt="Large pulse"/>
                     </figure>
                     :
                     <figure className="project__summary--small-pulse">
-                        <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
+                        <img src={SmallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
                 <article className="project__summary--details center-row">

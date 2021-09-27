@@ -77,10 +77,14 @@ h1, h2, h3, h4, h5 {
 
 .alternate-btn {
   background: none;
-  box-shadow: 1px 4px 1px #aa7436;
-  border: 2px solid #E9AE69;
-  color: #E9AE69;
-  background-color: rgba(18, 18, 18, 0.8);
+  box-shadow: 1px 4px 1px #2d2a52;
+  // border: 2px solid #E9AE69;
+  color: white;
+  background-color: #514D80;
+}
+
+.wider-btn {
+  width: 55%;
 }
 
 /* Section Containers */

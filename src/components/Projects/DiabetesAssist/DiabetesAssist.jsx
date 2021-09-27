@@ -4,9 +4,11 @@ import FigmaIcon from '../../../assets/icons/technical-icons/figma.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
+import LargePulse from '../../../assets/pulses/large-pulse.png'
+import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
+const DiabetesAssist = ({ showLargeOrSmall }) => {
 
     return (
         <section className="project center-column">
@@ -14,11 +16,11 @@ const DiabetesAssist = ({ largePulse, smallPulse, showLargeOrSmall }) => {
                 {
                     showLargeOrSmall === 'large' ?
                     <figure className="project__summary--large-pulse">
-                        <img src={largePulse} className="responsive-img" alt="Large pulse"/>
+                        <img src={LargePulse} className="responsive-img" alt="Large pulse"/>
                     </figure>
                     :
                     <figure className="project__summary--small-pulse">
-                        <img src={smallPulse} className="responsive-img" alt="Small pulse"/>
+                        <img src={SmallPulse} className="responsive-img" alt="Small pulse"/>
                     </figure>
                 }
                 <article className="project__summary--details center-row">
