@@ -9,6 +9,9 @@ import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 const MassShootingsUS = ({ showLargeOrSmall }) => {
 
+    const mainBtnClasses = showLargeOrSmall === 'large' ? 'btn main-btn-orange' : 'btn main-btn-blue'
+    const alternateBtnClasses = showLargeOrSmall === 'large' ? 'btn main-btn-orange' : 'btn alternate-btn-blue'
+
     return (
         <section className="project center-column">
             <article className="project__summary center-row mobile-reverse-col">
@@ -34,8 +37,8 @@ const MassShootingsUS = ({ showLargeOrSmall }) => {
 
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://italiaiello.github.io/info-vis/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
-                            <a href="https://github.com/italiaiello/info-vis" target="_blank" rel="noreferrer" className="btn alternate-btn">See Code on GitHub</a>
+                            <a href="https://italiaiello.github.io/info-vis/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://github.com/italiaiello/info-vis" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

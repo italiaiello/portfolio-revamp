@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
   border-radius: 10px;
   border: none;
-  background-color: #E9AE69;
-  box-shadow: 1px 4px 1px #aa7436;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 1px #999999;
   transition: all .2s ease-in-out;
   text-align: center;
   color: black;
@@ -74,6 +74,29 @@ h1, h2, h3, h4, h5 {
 .btn:hover {
   transform: scale(1.05);
 }
+
+.main-btn-blue {
+  background-color: #75A8EA;
+  box-shadow: 1px 4px 1px #375e91;
+}
+
+.alternate-btn-blue {
+  background-color: #334966;
+  box-shadow: 1px 4px 1px #1d2d42;
+  color: white;
+}
+
+.main-btn-orange {
+  background-color: #FFA166;
+  box-shadow: 1px 4px 1px #c46e39;
+}
+
+.alternate-btn-orange {
+  background-color: #7F390D;
+  box-shadow: 1px 4px 1px #5c2503;
+  color: white;
+}
+
 
 .alternate-btn {
   background: none;

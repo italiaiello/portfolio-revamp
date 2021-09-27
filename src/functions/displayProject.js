@@ -7,19 +7,28 @@ import SmartBrain from "../components/Projects/SmartBrain/SmartBrain"
 
 export const displayProject = (projectName, largeOrSmall) => {
 
+    const mainBtnClasses = largeOrSmall === 'large' ? 'btn main-btn-orange' : 'btn main-btn-blue'
+    const alternateBtnClasses = largeOrSmall === 'large' ? 'btn alternate-btn-orange' : 'btn alternate-btn-blue'
+
+    const props = {
+        showLargeOrSmall: largeOrSmall,
+        mainBtnClasses: mainBtnClasses,
+        alternateBtnClasses: alternateBtnClasses
+    }
+
     switch(projectName) {
         case "Nervi":
-            return <Nervi showLargeOrSmall={largeOrSmall} />
+            return <Nervi {...props} />
         case "MassShootingsUS" :
-            return <MassShootingsUS showLargeOrSmall={largeOrSmall} />
+            return <MassShootingsUS {...props} />
         case "DiabetesAssist":
-            return <DiabetesAssist showLargeOrSmall={largeOrSmall} />
+            return <DiabetesAssist {...props} />
         case "FootballRoundUp":
-            return <FootballRoundUp showLargeOrSmall={largeOrSmall} />
+            return <FootballRoundUp {...props} />
         case "DotD":
-            return <DotD showLargeOrSmall={largeOrSmall} />
+            return <DotD {...props} />
         case "SmartBrain":
-            return <SmartBrain showLargeOrSmall={largeOrSmall} />
+            return <SmartBrain {...props} />
         default:
             return <>Invalid project name</>;
     }

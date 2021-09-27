@@ -9,7 +9,7 @@ import LargePulse from '../../../assets/pulses/large-pulse.png'
 import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const SmartBrain = ({ showLargeOrSmall }) => {
+const SmartBrain = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {
 
     return (
         <section className="project center-column">
@@ -33,8 +33,8 @@ const SmartBrain = ({ showLargeOrSmall }) => {
                             I made this as part of a Udemy course titled <span className="italic-text">The Complete Web Developer in 2019</span>, led by Andrei Neagoie. I wanted to learn how to use the React library, and this course helped me rapidly improve my skills and gain the confidence I needed to start building things on my own.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://github.com/italiaiello/facerecognitionbrain" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
-                            <a href="https://github.com/italiaiello/smart-brain-api" target="_blank" rel="noreferrer" className="btn alternate-btn">See Code on GitHub</a>
+                            <a href="https://github.com/italiaiello/facerecognitionbrain" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://github.com/italiaiello/smart-brain-api" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

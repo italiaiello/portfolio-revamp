@@ -9,7 +9,7 @@ import LargePulse from '../../../assets/pulses/large-pulse.png'
 import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const FootballRoundUp = ({ showLargeOrSmall }) => {
+const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {
 
     return (
         <section className="project center-column">
@@ -35,8 +35,8 @@ const FootballRoundUp = ({ showLargeOrSmall }) => {
                             It’s not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className="btn">Try It Out</a>
-                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className="btn alternate-btn">See Code on GitHub</a>
+                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

@@ -8,7 +8,7 @@ import LargePulse from '../../../assets/pulses/large-pulse.png'
 import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const Nervi = ({ showLargeOrSmall }) => {
+const Nervi = ({ showLargeOrSmall, mainBtnClasses }) => {
 
     return (
         <section className="project center-column">
@@ -53,7 +53,7 @@ const Nervi = ({ showLargeOrSmall }) => {
                             The AR experience had three buildings that the user could interact with. They had the option to either, explode (show what elements make up the building), spin, or create a cross-section of the building.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing" target="_blank" rel="noreferrer" className="btn wider-btn">Download AR Experience (APK)</a>
+                            <a href="https://drive.google.com/file/d/17XE1VcOwG6kXTZkM0CVwpQueb1DtnB-V/view?usp=sharing" target="_blank" rel="noreferrer" className={`${mainBtnClasses} wider-btn`}>Download AR Experience (APK)</a>
                         </div>
                     </article>
                 </article>

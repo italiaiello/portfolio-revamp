@@ -8,7 +8,7 @@ import LargePulse from '../../../assets/pulses/large-pulse.png'
 import SmallPulse from '../../../assets/pulses/small-pulse.png'
 
 
-const DotD = ({ showLargeOrSmall }) => {
+const DotD = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {
 
     return (
         <section className="project center-column">
@@ -53,8 +53,8 @@ const DotD = ({ showLargeOrSmall }) => {
                             When the user has progressed through all the stages, they will have a better understanding of what the Day of the Dead festival is about.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">Download iOS Build</a>
-                            <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className="btn alternate-btn">Download APK</a>
+                            <a href="https://drive.google.com/file/d/1z1o1_ot0W0Ik9GLFsQ5pq2Fo3wgmPsrr/view?usp=sharing" target="_blank" rel="noreferrer" className={mainBtnClasses}>Download iOS Build</a>
+                            <a href="https://drive.google.com/file/d/1UIdNgtkDCkNSjTqX8c33MSWegHLQjP4G/view?usp=sharing" target="_blank" rel="noreferrer" className={alternateBtnClasses}>Download APK</a>
                         </div>
                     </article>
                 </article>
