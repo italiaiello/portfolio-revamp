@@ -124,7 +124,7 @@
                 overflow: hidden;
 
                 &--large-pulse {
-                    width: 180%;
+                    width: 160%;
                     left: -200px;
 
                     & img {
@@ -132,11 +132,11 @@
                     }
 
                 }
-        
+
                 &--small-pulse {
-                    width: 150%;
-                    right: -180px;
-                    
+                    width: 160%;
+                    right: -200px;
+
                     & img {
                         width: 90%;
                     }
@@ -181,6 +181,63 @@
                     }
                 }
 
+            }
+        }
+    }
+
+    // Ipad styling
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .project:not(:last-child) {
+            margin-bottom: 300px;
+        }
+    
+        .project:last-child {
+            margin-bottom: 300px;
+        }
+
+        .project {
+        
+            &__summary {
+
+                &--large-pulse {
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    margin: 0;
+                    width: 55%;
+                }
+        
+                &--small-pulse {
+                    position: absolute;
+                    right: 0;
+                    z-index: -1;
+                    margin: 0;
+                    width: 35%;
+                }
+
+                &--details {
+
+                    &__desc {
+                        & p {
+                            font-size: 1.2vw;
+                        }
+
+                        &--btn-container {
+                            width: 100%;
+                            justify-content: center;
+                            & .btn {
+                                flex: 1;
+                                padding: 20px 10px;
+                                margin: 10px;
+                            }
+
+                            & .wider-btn {
+                                flex: none;
+                                width: 70%;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

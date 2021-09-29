@@ -9,6 +9,11 @@
 
         &--icon-container {
             min-width: 100px;
+
+            & img {
+                width: auto;
+                height: 80px;
+            }
         }
     }
 
