@@ -16,8 +16,8 @@ function App() {
       <ProductAreas />
       <Services />
       <ProjectsSection />
-      <ContactMe />
-      <Resume />
+      <ContactMe showLargeOrSmall={'large'} />
+      <Resume showLargeOrSmall={'small'} />
     </div>
   );
 }
