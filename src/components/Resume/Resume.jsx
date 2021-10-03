@@ -1,14 +1,16 @@
 import React from 'react'
-import LargePulse from '../../assets/pulses/large-pulse.png'
-import SmallPulse from '../../assets/pulses/small-pulse.png'
-import "./Resume.scss"
+import LargePulse from '../../assets/pulses/large-pulse-end-section.png'
+import SmallPulse from '../../assets/pulses/small-pulse-end-section.png'
 
 const Resume = ({ showLargeOrSmall }) => {
+
+    const buttonClass = `contact-me__title-and-btn--mail-btn ${showLargeOrSmall === 'large' ? 'contact-me__orange-btn' : 'contact-me__blue-btn'}`
+
     return (
-        <section className="resume center-row">
-            <article className="resume__title-and-btn center-column">
-                <h2 className="resume__title-and-btn--title">Want to see my experience?</h2>
-                <a href="https://drive.google.com/file/d/1YJ-Gfw03eabUtAGAm73QFPpiE_SG6gGe/view?usp=sharing" target="_blank" rel="noreferrer" className="btn resume__title-and-btn--mail-btn">Check out my resume</a>
+        <section className="contact-me center-row">
+            <article className="contact-me__title-and-btn center-column">
+                <h2 className="contact-me__title-and-btn--title">Want to see my experience?</h2>
+                <a href="https://drive.google.com/file/d/1YJ-Gfw03eabUtAGAm73QFPpiE_SG6gGe/view?usp=sharing" target="_blank" rel="noreferrer" className={buttonClass}>Check out my resume</a>
             </article>
             {
                 showLargeOrSmall === 'large' ?

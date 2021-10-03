@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5 {
   transform: scale(1.05);
 }
 
+.btn:active {
+  transform: scale(0.95);
+}
+
 .main-btn-blue {
   background-color: #75A8EA;
   box-shadow: 1px 4px 1px #375e91;
