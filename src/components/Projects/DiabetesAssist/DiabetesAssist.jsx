@@ -53,8 +53,8 @@ const DiabetesAssist = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses 
                             This application acts as a hub for diabetes, providing important information and support all in one place. It allows people to track their blood glucose levels, book appointments with health professionals, and create diabetes-friendly meal plans.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://italiaiello.github.io/diabetes-assist/" target="_blank" rel="noreferrer" className="btn main-btn-orange">Try It Out</a>
-                            <a href="https://github.com/italiaiello/diabetes-assist" target="_blank" rel="noreferrer" className="btn alternate-btn-orange">See Code on GitHub</a>
+                            <a href="https://italiaiello.github.io/diabetes-assist/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://github.com/italiaiello/diabetes-assist" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                 </article>

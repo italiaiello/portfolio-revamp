@@ -26,6 +26,15 @@
         &--btn-container {
             width: 100%;
         }
+
+        &--btn {
+            width: 30%;
+            height: 10vh;
+
+            & img {
+                height: 80%;
+            }
+        }
     }
 
     &__pulse {
@@ -66,10 +75,10 @@
 
             &--btn-container {
                 width: 100%;
+            }
 
-                & .btn {
-                    width: 70%;
-                }
+            &--btn {
+                width: 30%;
             }
         }
 
