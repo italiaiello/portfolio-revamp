@@ -7,6 +7,7 @@ import ContactMe from './components/ContactMe/ContactMe';
 import Resume from './components/Resume/Resume';
 
 import './App.scss';
+import Logo from './components/Logo/Logo';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProjectsSection />
       <ContactMe showLargeOrSmall={'large'} />
       <Resume showLargeOrSmall={'small'} />
+      <Logo />
     </div>
   );
 }
