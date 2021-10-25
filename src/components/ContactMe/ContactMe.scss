@@ -41,7 +41,6 @@
 
         &--mail-btn {
             width: 20%;
-            min-width: 200px;
             padding: 20px;
             margin: 10px;
             cursor: pointer;
@@ -51,6 +50,7 @@
             text-align: center;
             color: white;
             text-decoration: none;
+            font-size: 1.3vw;
         }
 
         &--mail-btn:hover {
@@ -63,7 +63,7 @@
     }
 
     @media only screen and (max-width: 600px) {
-        width: 80%;
+        width: 100%;
         margin-top: 200px;
         margin-bottom: 100px;
 
@@ -81,6 +81,14 @@
             position: absolute;
             right: 0;
             z-index: -5;
+        }
+
+        &__title-and-btn {
+    
+            &--mail-btn {
+                width: 80%;
+                font-size: 1.1rem;
+            }
         }
     }
 }
