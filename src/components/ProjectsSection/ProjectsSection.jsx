@@ -9,7 +9,7 @@ const ProjectsSection = () => {
 
     return (
         <section className="projects-section">
-            <h2 className="section-heading">Projects Section</h2>
+            <h2 className="section-heading">Projects</h2>
             {
                 allProjects.map((project, index) => {
                     if (index % 2 === 0) {

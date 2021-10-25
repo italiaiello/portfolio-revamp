@@ -1,6 +1,5 @@
 import React from 'react'
 import Icon from '../../assets/icons/logo.svg'
-import './Logo.scss'
 
 const Logo = () => {
     return (
