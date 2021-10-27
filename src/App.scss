@@ -1,5 +1,6 @@
 html {
   background-color: #121212;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -34,6 +35,10 @@ h1, h2, h3, h4, h5 {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 // Better spacing for items on larger screens
