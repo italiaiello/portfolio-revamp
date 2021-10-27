@@ -10,7 +10,7 @@ const Resume = ({ showLargeOrSmall }) => {
         <section className="contact-me center-row">
             <article className="contact-me__title-and-btn center-column">
                 <h2 className="contact-me__title-and-btn--title">Want to see my experience?</h2>
-                <a href="https://drive.google.com/file/d/1YJ-Gfw03eabUtAGAm73QFPpiE_SG6gGe/view?usp=sharing" target="_blank" rel="noreferrer" className={buttonClass}>Check out my resume</a>
+                <a href="https://drive.google.com/file/d/1fbYWpCKDy-E90auvdWwLsbMCv4LAR4Hm/view?usp=sharing" target="_blank" rel="noreferrer" className={buttonClass}>Check out my resume</a>
             </article>
             {
                 showLargeOrSmall === 'large' ?
