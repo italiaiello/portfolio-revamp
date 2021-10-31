@@ -1,5 +1,5 @@
 import React from 'react'
-import SmartBrainImage from '../../../assets/images/smart-brain.png'
+import SmartBrainImage from '../../../assets/images/smart-brain.webp'
 import NodeIcon from '../../../assets/icons/technical-icons/nodejs.svg'
 import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
 import DockerIcon from '../../../assets/icons/technical-icons/Docker_logo.svg'

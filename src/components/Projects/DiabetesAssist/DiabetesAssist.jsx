@@ -1,5 +1,5 @@
 import React from 'react'
-import DiabetesAssistImage from '../../../assets/images/diabetes-assist.png'
+import DiabetesAssistImage from '../../../assets/images/diabetes-assist.webp'
 import FigmaIcon from '../../../assets/icons/technical-icons/figma.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'

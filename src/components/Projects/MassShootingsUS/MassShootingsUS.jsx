@@ -1,5 +1,5 @@
 import React from 'react'
-import MassShootings from '../../../assets/images/mass-shootings.png'
+import MassShootings from '../../../assets/images/mass-shootings.webp'
 import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'

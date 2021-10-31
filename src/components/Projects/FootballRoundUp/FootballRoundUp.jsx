@@ -1,5 +1,5 @@
 import React from 'react'
-import FruImage from '../../../assets/images/FRU.png'
+import FruImage from '../../../assets/images/FRU.webp'
 import NodeIcon from '../../../assets/icons/technical-icons/nodejs.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
