@@ -4,8 +4,8 @@ import UnityIcon from '../../../assets/icons/technical-icons/unity.svg'
 import VirtualRealityIcon from '../../../assets/icons/technical-icons/virtual-reality.svg'
 import AndroidIcon from '../../../assets/icons/technical-icons/Android_robot.svg'
 import AppleIcon from '../../../assets/icons/technical-icons/Apple_logo.svg'
-import LargePulse from '../../../assets/pulses/large-pulse.png'
-import SmallPulse from '../../../assets/pulses/small-pulse.png'
+import LargePulse from '../../../assets/pulses/large-pulse.webp'
+import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
 
 const DotD = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {

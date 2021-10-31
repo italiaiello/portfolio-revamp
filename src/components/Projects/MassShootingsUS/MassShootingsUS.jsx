@@ -3,8 +3,8 @@ import MassShootings from '../../../assets/images/mass-shootings.png'
 import D3Icon from '../../../assets/icons/technical-icons/d3.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
-import LargePulse from '../../../assets/pulses/large-pulse.png'
-import SmallPulse from '../../../assets/pulses/small-pulse.png'
+import LargePulse from '../../../assets/pulses/large-pulse.webp'
+import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
 
 const MassShootingsUS = ({ showLargeOrSmall }) => {

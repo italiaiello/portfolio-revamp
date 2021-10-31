@@ -5,8 +5,8 @@ import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
 import DockerIcon from '../../../assets/icons/technical-icons/Docker_logo.svg'
 import RedisIcon from '../../../assets/icons/technical-icons/redis.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
-import LargePulse from '../../../assets/pulses/large-pulse.png'
-import SmallPulse from '../../../assets/pulses/small-pulse.png'
+import LargePulse from '../../../assets/pulses/large-pulse.webp'
+import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
 
 const SmartBrain = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {

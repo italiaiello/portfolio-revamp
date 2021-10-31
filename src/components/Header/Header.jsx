@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderPulse from '../../assets/pulses/header-pulse.png'
-import MobileHeaderPulse from '../../assets/pulses/mobile-header-pulse.png'
+import HeaderPulse from '../../assets/pulses/header-pulse.webp'
+import MobileHeaderPulse from '../../assets/pulses/mobile-header-pulse.webp'
 import GitHubLogo from '../../assets/icons/technical-icons/github-black.svg'
 import LinkedIn from '../../assets/icons/technical-icons/linkedin-white.svg'
 import './Header.scss'

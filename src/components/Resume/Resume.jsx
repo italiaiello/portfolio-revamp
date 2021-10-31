@@ -1,6 +1,6 @@
 import React from 'react'
-import LargePulse from '../../assets/pulses/large-pulse-end-section.png'
-import SmallPulse from '../../assets/pulses/small-pulse-end-section.png'
+import LargePulse from '../../assets/pulses/large-pulse-end-section.webp'
+import SmallPulse from '../../assets/pulses/small-pulse-end-section.webp'
 
 const Resume = ({ showLargeOrSmall }) => {
 

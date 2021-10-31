@@ -5,8 +5,8 @@ import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
 import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
-import LargePulse from '../../../assets/pulses/large-pulse.png'
-import SmallPulse from '../../../assets/pulses/small-pulse.png'
+import LargePulse from '../../../assets/pulses/large-pulse.webp'
+import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
 
 const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses }) => {
