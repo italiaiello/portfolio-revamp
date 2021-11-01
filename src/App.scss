@@ -68,8 +68,8 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
   border-radius: 10px;
   border: none;
-  background-color: #ffffff;
-  box-shadow: 1px 4px 1px #999999;
+  background-color: #75A8EA;
+  box-shadow: 1px 4px 1px #375e91;
   transition: all .2s ease-in-out;
   text-align: center;
   color: black;
@@ -82,6 +82,12 @@ h1, h2, h3, h4, h5 {
 
 .btn:active {
   transform: scale(0.95);
+}
+
+.alternate-btn {
+  background-color: #334966;
+  box-shadow: 1px 4px 1px #1d2d42;
+  color: white;
 }
 
 .main-btn-blue {
@@ -107,13 +113,6 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.alternate-btn {
-  background: none;
-  box-shadow: 1px 4px 1px #2d2a52;
-  // border: 2px solid #E9AE69;
-  color: white;
-  background-color: #514D80;
-}
 
 .wider-btn {
   width: 55%;
