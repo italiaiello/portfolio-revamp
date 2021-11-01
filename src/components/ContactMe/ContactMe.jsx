@@ -5,7 +5,7 @@ import './ContactMe.scss'
 
 const ContactMe = ({ showLargeOrSmall }) => {
 
-    const buttonClass = `contact-me__title-and-btn--mail-btn ${showLargeOrSmall === 'large' ? 'main-btn-orange' : 'main-btn-blue'}`
+    const buttonClass = `contact-me__title-and-btn--mail-btn ${showLargeOrSmall === 'large' ? 'contact-me__orange-btn' : 'contact-me__blue-btn'}`
 
     return (
         <section className="contact-me center-row">
