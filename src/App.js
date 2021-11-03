@@ -5,9 +5,9 @@ import Services from './components/Services/Services';
 import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import ContactMe from './components/ContactMe/ContactMe';
 import Resume from './components/Resume/Resume';
+import Logo from './components/EndSection/EndSection';
 
 import './App.scss';
-import Logo from './components/Logo/Logo';
 
 function App() {
   return (
