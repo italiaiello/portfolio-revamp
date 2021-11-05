@@ -4,6 +4,12 @@
         margin-bottom: 500px;
     }
 
+    @media only screen and (min-width: 2000px) {
+        .project:not(:last-child) {
+            margin-bottom: 1000px;
+        }
+    }
+
     .project:last-child {
         margin-bottom: 300px;
     }
@@ -85,10 +91,10 @@
                     min-width: 250px;
                     margin: 20px;
                     text-align: justify;
-                    font-size: 1.2vw;
+                    font-size: 1.3vw;
 
                     &--title {
-                        font-size: 1.5rem;
+                        font-size: 1.7vw;
                         margin-top: 0;
                     }
                         
@@ -102,7 +108,7 @@
             text-align: left;
 
             &--title {
-                font-size: 1.5rem;
+                font-size: 1.8vw;
             }
         }
     }
@@ -151,7 +157,7 @@
                         margin-left: auto;
                         margin-right: auto;
                         text-align: left;
-                        font-size: 1.3rem;
+                        font-size: 1.5rem;
 
                         &--btn-container {
                             width: 100%;
@@ -220,9 +226,6 @@
                 &--details {
 
                     &__desc {
-                        & p {
-                            font-size: 1.2vw;
-                        }
 
                         &--btn-container {
                             width: 100%;

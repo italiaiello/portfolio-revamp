@@ -112,10 +112,35 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
-
-
 .wider-btn {
   width: 55%;
+}
+
+@media only screen and (min-width: 2000px) {
+  .btn {
+    padding: 50px;
+    box-shadow: 1px 8px 1px #375e91;
+  }
+
+  .alternate-btn {
+    box-shadow: 1px 8px 1px #213042;
+  }
+
+  .main-btn-blue {
+    box-shadow: 1px 4px 1px #375e91;
+  }
+  
+  .alternate-btn-blue {
+    box-shadow: 1px 4px 1px #1d2d42;
+  }
+  
+  .main-btn-orange {
+    box-shadow: 1px 4px 1px #c46e39;
+  }
+  
+  .alternate-btn-orange {
+    box-shadow: 1px 4px 1px #5c2503;
+  }
 }
 
 /* Section Containers */
@@ -129,10 +154,22 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+@media only screen and (min-width: 2000px) {
+  .section {
+    margin-bottom: 400px;
+  }
+}
+
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 2000px) {
+  .section-heading {
+    margin-bottom: 100px;
+  }
 }
 
 /* Hide and show elements on mobile */

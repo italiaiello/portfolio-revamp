@@ -34,4 +34,25 @@
             }
         }
     }
+
+    @media only screen and (min-width: 2000px) {
+        margin-top: 500px;
+
+        &__logo {
+            width: 10vh;
+            & img {
+                width: 100%;
+            }
+        }
+    
+        &__btn-container {
+            width: 70%;
+            margin-top: 100px;
+    
+            &--btn {
+                width: 70%;
+                height: 10vh;
+            }
+        }
+    }
 }

@@ -13,7 +13,7 @@ const Logo = () => {
 
     return (
         <section className="end-section section center-column">
-            <figure className="clickable" onClick={scrollToTop}>
+            <figure className="clickable end-section__logo" onClick={scrollToTop}>
                 <img src={Icon} alt="Andrew Aiello logo" />
             </figure>
             <article className="end-section__btn-container center-row">
