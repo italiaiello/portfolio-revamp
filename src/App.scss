@@ -166,6 +166,12 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 1.7rem;
+  }
+}
+
 @media only screen and (min-width: 2000px) {
   .section-heading {
     margin-bottom: 100px;
