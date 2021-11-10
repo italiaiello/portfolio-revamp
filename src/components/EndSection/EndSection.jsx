@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '../../assets/icons/logo.svg'
 import GitHubLogo from '../../assets/icons/technical-icons/github-black.svg'
-import LinkedIn from '../../assets/icons/technical-icons/linkedin-white.svg'
+import LinkedIn from '../../assets/icons/technical-icons/linkedin.svg'
 import './EndSection.scss'
 
 const Logo = () => {
