@@ -7,10 +7,15 @@ html {
   text-align: center;
   position: relative;
   color: white;
+  font-family: Lato;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: Lato;
+  font-family: Courgette;
+}
+
+h1 {
+  font-weight: normal;
 }
 
 .italic-text {
@@ -74,6 +79,7 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   color: black;
   text-decoration: none;
+  font-family: Lato;
 }
 
 .btn:hover {
