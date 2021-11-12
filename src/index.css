@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Courgette";
+  src: local("Courgette"),
+   url("./fonts/Courgette/Courgette-Regular.ttf") format("truetype");
+ }
+
+ @font-face {
+  font-family: "Lato";
+  src: local("Lato"),
+   url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
+ }
