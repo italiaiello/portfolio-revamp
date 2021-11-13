@@ -188,6 +188,8 @@
 
                             &__icon {
                                 margin: 5px;
+                                border-width: 2px;
+                                border-radius: 8px;
                             }
                         }
                     }
@@ -247,6 +249,32 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    // Mobile styling
+    @media only screen and (min-width: 2000px) {
+
+        .project {
+            width: 100%;
+
+            &__summary {
+
+                &--details {
+                    
+                    &__fig-and-icons {
+
+                        &--icons {
+
+                            &__icon {
+                                border-width: 4px;
+                                border-radius: 15px;
+                            }
+                        }
+                    }
+                }
+
             }
         }
     }
