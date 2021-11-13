@@ -13,6 +13,15 @@
         justify-content: flex-start;
         align-items: center;
 
+        &--profile-pic {
+            width: 40%;
+            margin: 0 0 10px 0;
+
+            & img {
+                width: 100%;
+            }
+        }
+
         &--name {
             font-size: 5vw;
             margin: 10px 0;
@@ -61,17 +70,6 @@
         z-index: -1;
     }
 
-    @media only screen and (max-width: 500px) {
-        &__intro {
-            width: 100%;
-            margin: 0;
-
-            & .btn {
-                width: 70%;
-            }
-        }
-    }
-
     @media only screen and (max-width: 600px) {
 
         align-items: center;
@@ -79,6 +77,11 @@
         &__intro {
             width: 100%;
             margin: 0;
+
+            & .btn {
+                width: 30%;
+                height: 8vh;
+            }
 
             &--name {
                 font-size: 2.5rem;

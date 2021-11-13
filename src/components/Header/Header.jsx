@@ -3,6 +3,7 @@ import HeaderPulse from '../../assets/pulses/header-pulse.webp'
 import MobileHeaderPulse from '../../assets/pulses/mobile-header-pulse.webp'
 import GitHubLogo from '../../assets/icons/technical-icons/github-black.svg'
 import LinkedIn from '../../assets/icons/technical-icons/linkedin-white.svg'
+import ProfilePic from '../../assets/images/profile-pic-mobile.webp'
 import './Header.scss'
 
 const Header = () => {
@@ -15,6 +16,9 @@ const Header = () => {
                 <img src={MobileHeaderPulse} className="responsive-img" alt="Header pulse" />
             </figure>
             <article className="header__intro center-column">
+                <figure class="header__intro--profile-pic show-on-mobile">
+                    <img src={ProfilePic} alt="Profile pic for mobile" />
+                </figure>
                 <h1 className="header__intro--name">Hi, I'm Andrew</h1>
                 <p className="header__intro--desc">And I'm passionate about expressing my creativity with code</p>
                 <article className="header__intro--btn-container center-row">
