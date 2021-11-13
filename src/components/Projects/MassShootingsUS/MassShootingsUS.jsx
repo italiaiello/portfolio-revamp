@@ -27,7 +27,7 @@ const MassShootingsUS = ({ showLargeOrSmall }) => {
                 }
                 <article className="project__summary--details center-row mobile-reverse-col">
                     <article className="project__summary--details__desc">
-                        <h3 className="project__summary--details__desc--title">Mass Shootings U.S.</h3>
+                        <h3 className="project__summary--details__desc--title">Data Visualisation</h3>
                         <p>
                             This was a project I worked on for a uni group assignment. Our brief was to find any dataset and display this data in an engaging way through a range of interactive graphs made with JavaScript. We utilised a dataset comprising all the Mass Shootings in the U.S. over the past 52 years, dating back from 2016.
                             <br/><br/>
