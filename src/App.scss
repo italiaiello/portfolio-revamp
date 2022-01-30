@@ -64,6 +64,17 @@ h1 {
   }
 }
 
+.test-credentials {
+  border-left: 4px solid white;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  & h4, p {
+    margin: 0;
+  }
+}
+
 /* Buttons */
 
 .btn {
