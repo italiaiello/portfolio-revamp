@@ -35,8 +35,8 @@ const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses
                             It’s not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
                         </p>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
-                            <a href="https://italiaiello.github.io/football-round-up/" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
+                            <a href="https://football-round-up.netlify.app/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://github.com/italiaiello/football-round-up" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">
