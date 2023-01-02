@@ -1,10 +1,9 @@
 import React from 'react'
 import FruImage from '../../../assets/images/FRU.webp'
 import NodeIcon from '../../../assets/icons/technical-icons/nodejs.svg'
-import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
-import PSequelIcon from '../../../assets/icons/technical-icons/PSequel.png'
+import NetlifyIcon from '../../../assets/icons/technical-icons/netlify.svg'
+import FirebaseIcon from '../../../assets/icons/technical-icons/firebase.png'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
-import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
 import LargePulse from '../../../assets/pulses/large-pulse.webp'
 import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
@@ -28,11 +27,11 @@ const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses
                     <article className="project__summary--details__desc">
                         <h3 className="project__summary--details__desc--title">Football Round Up</h3>
                         <p>
-                            This was the first application I created on my own. I love playing and watching football, so I thought it would be great to create a project about something I’m passionate about.
+                            This was the first application I created on my own. I love playing and watching football, so I thought it would be great to create a project about something I'm passionate about.
                             <br/><br/>
-                            I used the SportsDB API to retrieve all the relevant data. This is another full stack project, which was the first one I had coded all on my own after the completion of the Smart Brain project. 
+                            I used the SportsDB API to retrieve all the relevant data. I used firebase to handle user registrations and signins as I wanted to get more familiar with this technology.
                             <br/><br/>
-                            It’s not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
+                            It's not the prettiest project, but I was mainly focussing on developing my skills with React. This project helped improve my confidence with programming as I was able to see that I was becoming more comfortable with creating basic applications on my own.
                         </p>
                         <div className="test-credentials">
                             <h4>Test Credentials</h4>
@@ -55,17 +54,14 @@ const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses
                             <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
                                 <img src={ReactIcon} alt="React" className="responsive-img" />
                             </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Netlify">
+                                <img src={NetlifyIcon} alt="Netlify" className="responsive-img" />
+                            </figure>
                             <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Node Js">
                                 <img src={NodeIcon} alt="Node JS" className="responsive-img" />
                             </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="PSequel">
-                                <img src={PSequelIcon} alt="PSequel" className="responsive-img" />
-                            </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="GitHub">
-                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
-                            </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Heroku">
-                                <img src={HerokuIcon} alt="Heroku" className="responsive-img" />
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Firebase">
+                                <img src={FirebaseIcon} alt="Firebase" className="responsive-img" />
                             </figure>
                         </article>
                     </article>
