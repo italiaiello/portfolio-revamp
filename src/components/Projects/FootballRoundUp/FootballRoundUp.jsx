@@ -43,7 +43,7 @@ const FootballRoundUp = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses
                         </div>
                         <div className="project__summary--details__desc--btn-container center-row">
                             <a href="https://football-round-up.netlify.app/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
-                            <a href="https://github.com/italiaiello/football-round-up" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
+                            <a href="https://github.com/italiaiello/fru-revamp" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                     <article className="project__summary--details__fig-and-icons center-column">

@@ -3,7 +3,8 @@ import DiabetesAssistImage from '../../../assets/images/diabetes-assist.webp'
 import FigmaIcon from '../../../assets/icons/technical-icons/figma.svg'
 import GitHubIcon from '../../../assets/icons/technical-icons/github.svg'
 import ReactIcon from '../../../assets/icons/technical-icons/react.svg'
-import HerokuIcon from '../../../assets/icons/technical-icons/heroku.svg'
+import NetlifyIcon from '../../../assets/icons/technical-icons/netlify.svg'
+import FirebaseIcon from '../../../assets/icons/technical-icons/firebase.png'
 import LargePulse from '../../../assets/pulses/large-pulse.webp'
 import SmallPulse from '../../../assets/pulses/small-pulse.webp'
 
@@ -32,14 +33,14 @@ const DiabetesAssist = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses 
                             <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="React">
                                 <img src={ReactIcon} alt="React" className="responsive-img" />
                             </figure>
+                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Heroku">
+                                <img src={NetlifyIcon} alt="Heroku" className="responsive-img" />
+                            </figure>
                             <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Figma">
                                 <img src={FigmaIcon} alt="Figma" className="responsive-img" />
                             </figure>
                             <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="GitHub">
-                                <img src={GitHubIcon} alt="GitHub" className="responsive-img" />
-                            </figure>
-                            <figure className="project__summary--details__fig-and-icons--icons__icon center-row" title="Heroku">
-                                <img src={HerokuIcon} alt="Heroku" className="responsive-img" />
+                                <img src={FirebaseIcon} alt="GitHub" className="responsive-img" />
                             </figure>
                         </article>
                     </article>
@@ -61,8 +62,8 @@ const DiabetesAssist = ({ showLargeOrSmall, mainBtnClasses, alternateBtnClasses 
                             <p></p>
                         </div>
                         <div className="project__summary--details__desc--btn-container center-row">
-                            <a href="https://italiaiello.github.io/diabetes-assist/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
-                            <a href="https://github.com/italiaiello/diabetes-assist" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
+                            <a href="https://diabetesassist.netlify.app/" target="_blank" rel="noreferrer" className={mainBtnClasses}>Try It Out</a>
+                            <a href="https://github.com/italiaiello/diabetes-assist-v2" target="_blank" rel="noreferrer" className={alternateBtnClasses}>See Code on GitHub</a>
                         </div>
                     </article>
                 </article>
